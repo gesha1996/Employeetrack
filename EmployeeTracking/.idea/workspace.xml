@@ -34,24 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/run.xml">
-    <configuration name="SwitchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EmployeeTracking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.SwitchTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/firstTest.xml">
     <configuration name="VerifyWithDetails.validationOfDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EmployeeTracking" />
       <extension name="coverage">
@@ -80,6 +63,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/gesha1996/IdeaProjects/EmployeeTracking/firstTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeTracking" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/firstTest.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/gesha1996/IdeaProjects/EmployeeTracking/payrollRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EmployeeTracking" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/payrollRunner.xml" />
@@ -100,13 +103,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/firstTest.xml" />
+      <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/payrollRunner.xml" />
+      <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/run.xml" />
+      <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/SwitchRunner.xml" />
+      <item itemvalue="TestNG.VerifyWithDetails.validationOfDetails" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/firstTest.xml" />
         <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/run.xml" />
         <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/SwitchRunner.xml" />
         <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/payrollRunner.xml" />
         <item itemvalue="TestNG.VerifyWithDetails.validationOfDetails" />
-        <item itemvalue="TestNG.SwitchTest" />
       </list>
     </recent_temporary>
   </component>

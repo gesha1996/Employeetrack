@@ -18,10 +18,6 @@ public class PageSwitch {
     public WebElement switchBtnOnMainPage;
     @FindBy(xpath = "//span[@id='select2-chosen-1']")
     public WebElement arrow;
-
-
-
-
     @FindBy(id = "switch_emp")
     public WebElement saraHelen;
     @FindBy(xpath = "//button[.='Switch']")

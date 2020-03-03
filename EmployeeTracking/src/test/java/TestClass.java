@@ -64,7 +64,7 @@ public class TestClass extends TestBase {
         BrowserUtils.scrollDown(0, 500);
         select(page.department, department);
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-
+Thread.sleep(2000);
         select(page.indirectSup, indirectSupervisor);
         Thread.sleep(1000);
         page.saveButton.click();
@@ -94,8 +94,6 @@ public class TestClass extends TestBase {
             count++;
         }
         BrowserUtils.takeScreenshot(driver);
-
-
     }
 
     @Test(dependsOnMethods = "filter")

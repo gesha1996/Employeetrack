@@ -1,6 +1,7 @@
 package Test;
 
 import Page.*;
+import Utils.BrowserUtils;
 import Utils.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ import org.testng.asserts.SoftAssert;
 import sun.jvm.hotspot.debugger.Page;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -69,7 +71,7 @@ public class VerifyWithDetails extends TestBase {
     }
 
     @Test(dataProvider = "salaryInfo",priority = 1)
-    public void financeTest(String salary1, String amount, String details) throws InterruptedException {
+    public void financeTest(String salary1, String amount, String details) throws InterruptedException, IOException {
         pageFinance.financeBtn.click();
         pageFinance.salaryBtn.click();
         softAssert.assertEquals(pageFinance.text.getText(), "Salary Finance");
@@ -83,6 +85,7 @@ public class VerifyWithDetails extends TestBase {
         for (WebElement str : pageFinance.listOfDetails) {
             softAssert.assertEquals(details, str.getText());
         }
+        BrowserUtils.takeScreenshot(driver);
 
     }
 
@@ -118,7 +121,7 @@ public class VerifyWithDetails extends TestBase {
         Assert.assertTrue(page.testList().containsAll(expected));
     }
     @Test(priority = 5)
-    public void payrollTest() throws InterruptedException {
+    public void payrollTest() throws InterruptedException, IOException {
         payrollPage.payrollBtn.click();
         payrollPage.salaryBtn.click();
         payrollPage.employeeComponents.click();
@@ -131,6 +134,7 @@ public class VerifyWithDetails extends TestBase {
         for(WebElement a:payrollPage.finalList){
             softAssert.assertTrue(a.isDisplayed());
         }
+        BrowserUtils.takeScreenshot(driver);
 
 
     }

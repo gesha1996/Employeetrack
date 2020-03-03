@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AWS Project]">
+  <test thread-count="5" name="AWS TEST(failed)">
+    <parameter name="DriverName" value="chrome"/>
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="editName"/>
+          <include name="setup"/>
+          <include name="setUpDriver"/>
+          <include name="filter"/>
+          <include name="mainTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- AWS TEST(failed) -->
+</suite> <!-- Failed suite [AWS Project] -->

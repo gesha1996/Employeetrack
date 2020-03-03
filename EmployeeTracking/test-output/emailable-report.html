@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">AWS TEST</a></td><td class="numi">5</td><td class="numi">4</td><td class="numi_attn">2</td><td class="numi_attn">5</td><td class="numi">31.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">AWS TEST &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="5">TestClass</td><td><a href="#m1"><b>mainTest</b>  </a></td><td class="numi">1</td><td>1583196197665</td><td class="numi">8102</td></tr><tr class="failedodd"><td><a href="#m2"><b>mainTest</b>  </a></td><td class="numi">1</td><td>1583196197665</td><td class="numi">8102</td></tr><tr class="failedodd"><td><a href="#m3"><b>mainTest</b>  </a></td><td class="numi">1</td><td>1583196197665</td><td class="numi">8102</td></tr><tr class="failedodd"><td><a href="#m4"><b>mainTest</b>  </a></td><td class="numi">1</td><td>1583196197665</td><td class="numi">8102</td></tr><tr class="failedodd"><td><a href="#m5"><b>mainTest</b>  </a></td><td class="numi">1</td><td>1583196197665</td><td class="numi">8102</td></tr>
+<tr><th colspan="5">AWS TEST &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">TestClass</td><td><a href="#m6"><b>filter</b>  </a></td><td class="numi">1</td><td>1583196221935</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>editName</b>  </a></td><td class="numi">1</td><td>1583196221936</td><td class="numi">0</td></tr>
+<tr><th colspan="5">AWS TEST &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">TestClass</td><td><a href="#m8"><b>mainTest</b>  </a></td><td class="numi">4</td><td>1583196205773</td><td class="numi">16160</td></tr><tr class="passedodd"><td><a href="#m9"><b>mainTest</b>  </a></td><td class="numi">4</td><td>1583196205773</td><td class="numi">16160</td></tr><tr class="passedodd"><td><a href="#m10"><b>mainTest</b>  </a></td><td class="numi">4</td><td>1583196205773</td><td class="numi">16160</td></tr><tr class="passedodd"><td><a href="#m11"><b>mainTest</b>  </a></td><td class="numi">4</td><td>1583196205773</td><td class="numi">16160</td></tr><tr class="passedodd"><td><a href="#m12"><b>mainTest</b>  </a></td><td class="numi">4</td><td>1583196205773</td><td class="numi">16160</td></tr>
+</table>
+<h1>AWS TEST</h1>
+<h2 id="m1">TestClass:mainTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr>
+<tr class="param stripe"><td>GTJ3OOC</td>
+<td>David</td>
+<td>Lee</td>
+<td>Albanian</td>
+<td>1992/04/02</td>
+<td>Male</td>
+<td>Married</td>
+<td>Full Time Internship</td>
+<td>Software Engineer</td>
+<td>Albania</td>
+<td>2020/05/05</td>
+<td>Development Team</td>
+<td>Sofia O&apos;Sullivan</td>
+</tr>
+<tr><td colspan="13">
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Sofia O&apos;Sullivan
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Aigerims-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14ec:21b2:9fe9:8934%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at TestClass.select(TestClass.java:124)
+	at TestClass.mainTest(TestClass.java:68)
+... Removed 24 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">TestClass:filter</h2>
+<div>
+<div class="stacktrace">java.lang.Throwable: Method TestClass.filter()[pri:0, instance:TestClass@1cd072a9] depends on not successfully finished methods
+... Removed 17 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">TestClass:editName</h2>
+<div>
+<div class="stacktrace">java.lang.Throwable: Method TestClass.editName()[pri:0, instance:TestClass@1cd072a9] depends on not successfully finished methods
+... Removed 17 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">TestClass:mainTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr>
+<tr class="param stripe"><td>0AWEU8S</td>
+<td>Robert</td>
+<td>Smith</td>
+<td>American</td>
+<td>1999/08/03</td>
+<td>Male</td>
+<td>Single</td>
+<td>Full Time Permanent</td>
+<td>Software Engineer</td>
+<td>United States</td>
+<td>2019/04/04</td>
+<td>Development Team</td>
+<td>Sofia O&apos;Sullivan</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">TestClass:mainTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr>
+<tr class="param stripe"><td>VVW93KH</td>
+<td>Maria</td>
+<td>Garcia</td>
+<td>Canadian</td>
+<td>2000/10/05</td>
+<td>Female</td>
+<td>Divorced</td>
+<td>Part Time Internship</td>
+<td>Software Engineer</td>
+<td>Canada</td>
+<td>2018/03/03</td>
+<td>Development Team</td>
+<td>Sofia O&apos;Sullivan</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">TestClass:mainTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr>
+<tr class="param stripe"><td>Z5FOGEU</td>
+<td>Jennifer</td>
+<td>Zack</td>
+<td>Cuban</td>
+<td>2001/11/08</td>
+<td>Female</td>
+<td>Married</td>
+<td>Part Time Permanent</td>
+<td>Software Engineer</td>
+<td>Cuba</td>
+<td>2017/02/02</td>
+<td>Development Team</td>
+<td>Sofia O&apos;Sullivan</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">TestClass:mainTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr>
+<tr class="param stripe"><td>CKXZ67L</td>
+<td>James</td>
+<td>Anderson</td>
+<td>Gambian</td>
+<td>2004/03/04</td>
+<td>Male</td>
+<td>Single</td>
+<td>Full Time Permanent</td>
+<td>Software Engineer</td>
+<td>Gambia</td>
+<td>2016/08/08</td>
+<td>Development Team</td>
+<td>Sofia O&apos;Sullivan</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
