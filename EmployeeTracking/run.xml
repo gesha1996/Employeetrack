@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="AWS Project" >
+    <test name="AWS TEST">
+        <parameter name="DriverName" value="chrome"></parameter>
+        <classes>
+
+            <class name="Test.VerifyWithDetails"></class>
+        </classes>
+    </test>
+</suite>

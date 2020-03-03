@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="AWS Project" >
+    <test name="AWS TEST Switch">
+        <parameter name="DriverName" value="chrome"></parameter>
+        <classes>
+
+            <class name="Test.SwitchTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f61e0426-de0a-4985-a099-d60e06a3071d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="EmployeeTracking" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y5wIn586lmTjn9BkrkgxI6TyEw" />
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/run.xml">
+    <configuration name="SwitchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeTracking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.SwitchTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyWithDetails.validationOfDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeTracking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.VerifyWithDetails" />
+      <option name="METHOD_NAME" value="validationOfDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/gesha1996/IdeaProjects/EmployeeTracking/SwitchRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeTracking" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SwitchRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/gesha1996/IdeaProjects/EmployeeTracking/payrollRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeTracking" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/payrollRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/gesha1996/IdeaProjects/EmployeeTracking/run.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeTracking" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/run.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/run.xml" />
+        <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/SwitchRunner.xml" />
+        <item itemvalue="TestNG./Users/gesha1996/IdeaProjects/EmployeeTracking/payrollRunner.xml" />
+        <item itemvalue="TestNG.VerifyWithDetails.validationOfDetails" />
+        <item itemvalue="TestNG.SwitchTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f61e0426-de0a-4985-a099-d60e06a3071d" name="Default Changelist" comment="" />
+      <created>1582245685221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582245685221</updated>
+    </task>
+    <servers />
+  </component>
+</project>
